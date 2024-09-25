@@ -1,14 +1,47 @@
 :root {
+    --text-color: #ECF2F7;
     --bg-color: #0b141a;
-    --bg-color-secondary: rgba(156, 187, 215, 0.05);
+    --bg-alt-color: rgba(156, 187, 215, 0.05);
     --primary-color: #9cbbd7;
+    --secondary-color: #393076;
+    --secondary-alt-color: rgba(58, 49, 119, 0.2);
+    --accent-color: #7C69C2;
 }
 
 body {
     background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Inter, sans-serif;
 }
 
 .panel {
     border-radius: 15px;
-    background-color: var(--bg-color-secondary);
+    background-color: var(--bg-alt-color);
+}
+
+.nav-list {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nav-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.nav-list ul li a:hover {
+    color: var(--accent-color);
 }
