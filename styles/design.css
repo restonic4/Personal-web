@@ -1,0 +1,14 @@
+:root {
+    --bg-color: #0b141a;
+    --bg-color-secondary: rgba(156, 187, 215, 0.05);
+    --primary-color: #9cbbd7;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.panel {
+    border-radius: 15px;
+    background-color: var(--bg-color-secondary);
+}
