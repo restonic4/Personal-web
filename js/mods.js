@@ -10,4 +10,5 @@ function calculatePercentage(modPosition, lastPosition) {
 }
 
 const percentage = calculatePercentage(2836, 33720);
-console.log(`Mod stats: ${percentage.toFixed(2)}%`);
+const percentage2 = calculatePercentage(42412, 32193717);
+console.log(`Mod stats: ${percentage.toFixed(2)}% and ${percentage2.toFixed(2)}%`);
